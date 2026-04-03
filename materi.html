@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi - Matematika Murni</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="materi.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">📐 Matematika Murni</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="materi.html">Materi</a></li>
+                <li><a href="soal.html">Soal Latihan</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container materi-container">
+        <aside class="sidebar">
+            <h3>Daftar Materi</h3>
+            <ul>
+                <li><a href="#aljabar">Aljabar</a>
+                    <ul>
+                        <li><a href="#persamaan">Persamaan Linear</a></li>
+                        <li><a href="#kuadrat">Persamaan Kuadrat</a></li>
+                        <li><a href="#fungsi">Fungsi</a></li>
+                    </ul>
+                </li>
+                <li><a href="#geometri">Geometri</a>
+                    <ul>
+                        <li><a href="#bangun-datar">Bangun Datar</a></li>
+                        <li><a href="#bangun-ruang">Bangun Ruang</a></li>
+                    </ul>
+                </li>
+                <li><a href="#kalkulus">Kalkulus</a>
+                    <ul>
+                        <li><a href="#limit">Limit</a></li>
+                        <li><a href="#turunan">Turunan</a></li>
+                        <li><a href="#integral">Integral</a></li>
+                    </ul>
+                </li>
+                <li><a href="#statistika">Statistika</a>
+                    <ul>
+                        <li><a href="#data">Analisis Data</a></li>
+                        <li><a href="#probabilitas">Probabilitas</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </aside>
+
+        <main class="materi-content">
+            <section id="aljabar">
+                <h2>🔤 Aljabar</h2>
+                
+                <article id="persamaan">
+                    <h3>Persamaan Linear</h3>
+                    <p>Persamaan linear adalah persamaan yang memiliki variable dengan pangkat tertinggi 1.</p>
+                    <div class="example-box">
+                        <h4>Contoh:</h4>
+                        <p>2x + 3 = 7</p>
+                        <p><strong>Solusi:</strong> x = 2</p>
+                    </div>
+                    <p><strong>Cara menyelesaikan:</strong></p>
+                    <ol>
+                        <li>Pisahkan variable di satu sisi</li>
+                        <li>Pindahkan konstanta ke sisi lain</li>
+                        <li>Bagi dengan koefisien variable</li>
+                    </ol>
+                </article>
+
+                <article id="kuadrat">
+                    <h3>Persamaan Kuadrat</h3>
+                    <p>Persamaan kuadrat memiliki bentuk umum: ax² + bx + c = 0</p>
+                    <div class="example-box">
+                        <h4>Contoh:</h4>
+                        <p>x² - 5x + 6 = 0</p>
+                        <p><strong>Solusi:</strong> x = 2 atau x = 3</p>
+                    </div>
+                    <p><strong>Rumus Kuadratik:</strong></p>
+                    <p style="text-align: center; font-size: 1.1rem;">x = (-b ± √(b² - 4ac)) / 2a</p>
+                </article>
+
+                <article id="fungsi">
+                    <h3>Fungsi</h3>
+                    <p>Fungsi adalah relasi yang menghubungkan setiap input dengan tepat satu output.</p>
+                    <div class="example-box">
+                        <h4>Contoh:</h4>
+                        <p>f(x) = 2x + 1</p>
+                        <p>f(3) = 2(3) + 1 = 7</p>
+                    </div>
+                </article>
+            </section>
+
+            <section id="geometri">
+                <h2>📦 Geometri</h2>
+                
+                <article id="bangun-datar">
+                    <h3>Bangun Datar</h3>
+                    <p>Bangun datar adalah bentuk dua dimensi yang memiliki panjang dan lebar.</p>
+                    <div class="example-box">
+                        <h4>Persegi Panjang:</h4>
+                        <p>Luas = panjang × lebar</p>
+                        <p>Keliling = 2(p + l)</p>
+                    </div>
+                    <div class="example-box">
+                        <h4>Segitiga:</h4>
+                        <p>Luas = ½ × alas × tinggi</p>
+                        <p>Keliling = sisi1 + sisi2 + sisi3</p>
+                    </div>
+                </article>
+
+                <article id="bangun-ruang">
+                    <h3>Bangun Ruang</h3>
+                    <p>Bangun ruang adalah bentuk tiga dimensi yang memiliki panjang, lebar, dan tinggi.</p>
+                    <div class="example-box">
+                        <h4>Kubus:</h4>
+                        <p>Volume = s³ (s = sisi)</p>
+                        <p>Luas Permukaan = 6s²</p>
+                    </div>
+                </article>
+            </section>
+
+            <section id="kalkulus">
+                <h2>∞ Kalkulus</h2>
+                
+                <article id="limit">
+                    <h3>Limit</h3>
+                    <p>Limit adalah nilai yang didekati oleh suatu fungsi saat variable mendekati nilai tertentu.</p>
+                    <div class="example-box">
+                        <p>lim(x→2) (x + 1) = 3</p>
+                    </div>
+                </article>
+
+                <article id="turunan">
+                    <h3>Turunan</h3>
+                    <p>Turunan mengukur laju perubahan suatu fungsi.</p>
+                    <div class="example-box">
+                        <p>Jika f(x) = x², maka f'(x) = 2x</p>
+                    </div>
+                </article>
+
+                <article id="integral">
+                    <h3>Integral</h3>
+                    <p>Integral adalah operasi kebalikan dari turunan yang digunakan untuk menghitung luas.</p>
+                    <div class="example-box">
+                        <p>∫ 2x dx = x² + C</p>
+                    </div>
+                </article>
+            </section>
+
+            <section id="statistika">
+                <h2>📊 Statistika</h2>
+                
+                <article id="data">
+                    <h3>Analisis Data</h3>
+                    <p>Statistika deskriptif menggunakan angka dan grafik untuk merangkum data.</p>
+                    <div class="example-box">
+                        <h4>Mean (Rata-rata):</h4>
+                        <p>Mean = (jumlah semua data) / (banyak data)</p>
+                    </div>
+                    <div class="example-box">
+                        <h4>Median:</h4>
+                        <p>Nilai tengah dari data yang telah diurutkan</p>
+                    </div>
+                </article>
+
+                <article id="probabilitas">
+                    <h3>Probabilitas</h3>
+                    <p>Probabilitas adalah ukuran kemungkinan terjadinya suatu peristiwa.</p>
+                    <div class="example-box">
+                        <p>P(A) = (jumlah hasil yang diinginkan) / (total hasil yang mungkin)</p>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Matematika Murni. Dibuat dengan ❤️ untuk pendidikan</p>
+        </div>
+    </footer>
+</body>
+</html>
